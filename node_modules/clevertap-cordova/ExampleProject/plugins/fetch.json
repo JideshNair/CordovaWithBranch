@@ -1,0 +1,29 @@
+{
+  "cordova-plugin-whitelist": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-whitelist@1"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "clevertap-cordova": {
+    "source": {
+      "type": "registry",
+      "id": "https://github.com/CleverTap/clevertap-cordova.git#2.1.8"
+    },
+    "is_top_level": true,
+    "variables": {
+      "CLEVERTAP_ACCOUNT_ID": "YOUR CLEVERTAP ACCOUNT ID",
+      "CLEVERTAP_TOKEN": "YOUR CELVERTAP ACCOUNT TOKEN"
+    }
+  },
+  "cordova-android-support-gradle-release": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-android-support-gradle-release"
+    },
+    "is_top_level": true,
+    "variables": {}
+  }
+}

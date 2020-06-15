@@ -1,0 +1,25 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "com.jidesh.test"
+    },
+    "clevertap-cordova": {
+      "CLEVERTAP_ACCOUNT_ID": "R74-547-885Z",
+      "CLEVERTAP_TOKEN": "a45-4a2",
+      "CLEVERTAP_REGION": " ",
+      "FIREBASE_MESSAGING_VERSION": "17.3.4",
+      "PACKAGE_NAME": "com.jidesh.test"
+    },
+    "branch-cordova-sdk": {
+      "PACKAGE_NAME": "com.example.fcm"
+    }
+  },
+  "dependent_plugins": {}
+}
