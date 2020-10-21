@@ -27,7 +27,7 @@
     <allow-intent href="mailto:*" />
     <allow-intent href="geo:*" />
     <branch-config>
-        <branch-key value="key_test_pgJYiEYvUOomm5yaQ30gVcdasxcIE2is" />
+        <branch-key value="" />
         <uri-scheme value="testcordova" />
         <link-domain value="i2f8.test-app.link" />
         <ios-team-release value="PW4Q8885U7" />

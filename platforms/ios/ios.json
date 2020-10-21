@@ -1,0 +1,39 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {
+      "config.xml": {
+        "parents": {
+          "/*": [
+            {
+              "xml": "<feature name=\"BranchSDK\"><param name=\"ios-package\" value=\"BranchSDK\" /><param name=\"onload\" value=\"true\" /></feature>",
+              "count": 1
+            }
+          ]
+        }
+      }
+    }
+  },
+  "installed_plugins": {
+    "branch-cordova-sdk": {
+      "PACKAGE_NAME": "$(PRODUCT_BUNDLE_IDENTIFIER)"
+    }
+  },
+  "dependent_plugins": {},
+  "modules": [
+    {
+      "id": "branch-cordova-sdk.Branch",
+      "file": "plugins/branch-cordova-sdk/src/index.js",
+      "pluginId": "branch-cordova-sdk",
+      "clobbers": [
+        "Branch"
+      ]
+    }
+  ],
+  "plugin_metadata": {
+    "branch-cordova-sdk": "4.1.2"
+  }
+}

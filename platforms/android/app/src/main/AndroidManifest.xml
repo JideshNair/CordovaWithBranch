@@ -25,8 +25,8 @@
         <data android:host="i2f8-alternate.test-app.link" android:scheme="https"/>
       </intent-filter>
     </activity>
-    <meta-data android:name="CLEVERTAP_ACCOUNT_ID" android:value=""/>
-    <meta-data android:name="CLEVERTAP_TOKEN" android:value=""/>
+    <meta-data android:name="CLEVERTAP_ACCOUNT_ID" android:value="R74-547-885Z"/>
+    <meta-data android:name="CLEVERTAP_TOKEN" android:value="a45-4a2"/>
     <meta-data android:name="CLEVERTAP_REGION" android:value=" "/>
     <meta-data android:name="io.branch.sdk.BranchKey.test" android:value=""/>
     <meta-data android:name="io.branch.sdk.BranchKey" android:value=""/>

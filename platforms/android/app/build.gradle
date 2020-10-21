@@ -302,7 +302,7 @@ dependencies {
     implementation "com.android.installreferrer:installreferrer:1.0"
     implementation "io.branch.sdk.android:library:4.3.2"
     // SUB-PROJECT DEPENDENCIES END
-}`
+}
 
 def promptForReleaseKeyPassword() {
     if (!cdvReleaseSigningPropertiesFile) {
