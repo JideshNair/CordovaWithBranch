@@ -1,6 +1,7 @@
 
 
 var app = {
+
     // Application Constructor
 initialize: function() {
     document.addEventListener('deviceready', this.onDeviceReady.bind(this), false);
@@ -40,7 +41,9 @@ initialize: function() {
 onDeviceReady: function() {
     this.receivedEvent('deviceready');
     CleverTap.setDebugLevel(3);
+
      CleverTap.createNotificationChannel("test", "Test Channel", "A TEST channel",3, true);
+  
    // CleverTap.registerPush();
 alert("device ready");
     // Ionic example usage
@@ -334,6 +337,7 @@ var dateTime = date+' '+time;
 function create_event()
 {
 alert("Event Created");
+
  CleverTap.recordEventWithName("ButtonClick");
 
 }

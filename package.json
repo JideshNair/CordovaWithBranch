@@ -34,7 +34,8 @@
       "branch-cordova-sdk": {}
     },
     "platforms": [
-      "android"
+      "android",
+      "ios"
     ]
   }
 }

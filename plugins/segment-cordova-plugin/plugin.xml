@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='utf-8'?>
+<plugin id="segment-cordova-plugin"
+	xmlns="http://apache.org/cordova/ns/plugins/1.0"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	version="4.0.0" >
+
+    <name>SegmentCordovaPlugin</name>
+    <license>MIT License</license>
+    <description>Cordova plugin for the Segment SDK</description>
+    <author>James Yoon</author>
+
+    <access origin="api.segment.io" />
+
+    <js-module name="SegmentCordovaPlugin" src="www/SegmentCordovaPlugin.js">
+        <clobbers target="Segment" />
+    </js-module>
+
+    <platform name="android">
+        <config-file parent="/*" target="res/xml/config.xml">
+            <feature name="SegmentCordovaPlugin">
+                <param name="android-package" value="com.segment.cordova.plugin.SegmentCordovaPlugin" />
+            </feature>
+        </config-file>
+        <config-file parent="/*" target="AndroidManifest.xml" >
+        	<uses-permission android:name="android.permission.INTERNET" />
+        </config-file>
+        <source-file src="src/android/SegmentCordovaPlugin.java" target-dir="src/com/segment/cordova/plugin" />
+
+        <framework src="src/android/build.gradle" custom="true" type="gradleReference" />
+
+        <framework src="com.segment.analytics.android:analytics:4.3.1"/>
+        <framework src="com.appboy:appboy-segment-integration:4.0.0"/>
+    </platform>
+
+    <platform name="ios">
+        <config-file parent="/*" target="config.xml">
+            <feature name="SegmentCordovaPlugin">
+                <param name="ios-package" value="SegmentCordovaPlugin" />
+            </feature>
+        </config-file>
+
+        <header-file src="src/ios/SegmentCordovaPlugin.h" target-dir="SegmentCordovaPlugin"/>
+        <source-file src="src/ios/SegmentCordovaPlugin.m" target-dir="SegmentCordovaPlugin"/>
+
+        <podspec>
+            <config>
+                <source url="https://cdn.cocoapods.org/"/>
+            </config>
+            <pods>
+                <pod name="Analytics" spec="3.7.1"/>
+                <pod name="Segment-Appboy" spec="3.0.0"/>
+            </pods>
+        </podspec>
+    </platform>
+</plugin>

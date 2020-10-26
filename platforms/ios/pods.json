@@ -4,12 +4,26 @@
         "https://github.com/CocoaPods/Specs.git": {
             "source": "https://github.com/CocoaPods/Specs.git",
             "count": 1
+        },
+        "https://cdn.cocoapods.org/": {
+            "source": "https://cdn.cocoapods.org/",
+            "count": 1
         }
     },
     "libraries": {
         "Branch": {
             "name": "Branch",
             "spec": "~> 0.31.3",
+            "count": 1
+        },
+        "Analytics": {
+            "name": "Analytics",
+            "spec": "3.7.1",
+            "count": 1
+        },
+        "Segment-Appboy": {
+            "name": "Segment-Appboy",
+            "spec": "3.0.0",
             "count": 1
         }
     }

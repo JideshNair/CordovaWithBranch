@@ -19,6 +19,9 @@
     },
     "branch-cordova-sdk": {
       "PACKAGE_NAME": "com.example.fcm"
+    },
+    "segment-cordova-plugin": {
+      "PACKAGE_NAME": "com.example.fcm"
     }
   },
   "dependent_plugins": {}

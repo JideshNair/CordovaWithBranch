@@ -26,14 +26,35 @@
 //
 
 #import "AppDelegate.h"
+#import <CleverTapSDK/CleverTap.h>
+#import <CleverTapSDK/CleverTapInstanceConfig.h>
 #import "MainViewController.h"
-
+#import <UserNotifications/UserNotifications.h>
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication*)application didFinishLaunchingWithOptions:(NSDictionary*)launchOptions
 {
+    [self registerPush];
+       
+       // Configure and init the default shared CleverTap instance, (add CleverTap Account ID and Account Token in your .plist file)
+       #ifdef DEBUG
+           [CleverTap setDebugLevel:CleverTapLogDebug];
+       #endif
+       [CleverTap autoIntegrate];
     self.viewController = [[MainViewController alloc] init];
     return [super application:application didFinishLaunchingWithOptions:launchOptions];
+}
+- (void)registerPush {
+   
+    UNUserNotificationCenter *center = [UNUserNotificationCenter currentNotificationCenter];
+    
+    [center requestAuthorizationWithOptions:(UNAuthorizationOptionSound | UNAuthorizationOptionAlert | UNAuthorizationOptionBadge) completionHandler:^(BOOL granted, NSError * _Nullable error){
+        if( !error ){
+            dispatch_async(dispatch_get_main_queue(), ^(void) {
+                [[UIApplication sharedApplication] registerForRemoteNotifications];
+            });
+        }
+    }];
 }
 
 @end

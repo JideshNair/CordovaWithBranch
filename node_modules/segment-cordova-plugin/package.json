@@ -1,0 +1,69 @@
+{
+  "_from": "git+https://github.com/kohofinancial/segment-cordova-plugin.git",
+  "_id": "segment-cordova-plugin@4.0.0",
+  "_inBundle": false,
+  "_integrity": "",
+  "_location": "/segment-cordova-plugin",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "git",
+    "raw": "https://github.com/kohofinancial/segment-cordova-plugin.git",
+    "rawSpec": "https://github.com/kohofinancial/segment-cordova-plugin.git",
+    "saveSpec": "git+https://github.com/kohofinancial/segment-cordova-plugin.git",
+    "fetchSpec": "https://github.com/kohofinancial/segment-cordova-plugin.git",
+    "gitCommittish": null
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "git+https://github.com/kohofinancial/segment-cordova-plugin.git#2cb7c57db6e2f5db5296900bfb7a170a0efea371",
+  "_spec": "https://github.com/kohofinancial/segment-cordova-plugin.git",
+  "_where": "/Users/jidesh/AndroidStudioProjects/CordovaWithBranch",
+  "author": {
+    "name": "James Yoon"
+  },
+  "bugs": {
+    "url": "https://github.com/kohofinancial/segment-cordova-plugin/issues"
+  },
+  "bundleDependencies": false,
+  "cordova": {
+    "id": "segment-cordova-plugin",
+    "platforms": [
+      "android",
+      "ios"
+    ]
+  },
+  "dependencies": {},
+  "deprecated": false,
+  "description": "Segment Cordova Plugin",
+  "devDependencies": {
+    "xcode": "1.0.0"
+  },
+  "engines": {
+    "cordovaDependencies": {
+      "4.0.0": {
+        "cordova": ">7.0.0",
+        "cordova-android": ">7.0.0",
+        "cordova-ios": ">4.3.0"
+      }
+    }
+  },
+  "homepage": "https://github.com/kohofinancial/segment-cordova-plugin#readme",
+  "keywords": [
+    "cordova",
+    "segment",
+    "integration",
+    "analytics",
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios"
+  ],
+  "license": "MIT",
+  "name": "segment-cordova-plugin",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kohofinancial/segment-cordova-plugin.git"
+  },
+  "version": "4.0.0"
+}

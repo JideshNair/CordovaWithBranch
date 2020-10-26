@@ -40,6 +40,7 @@ initialize: function() {
 onDeviceReady: function() {
     this.receivedEvent('deviceready');
     CleverTap.setDebugLevel(3);
+    window.Segment.startWithConfiguration("LoGlZKuq3Dj6OLVJgXHIgeZ9IuzlxXvG");
      CleverTap.createNotificationChannel("test", "Test Channel", "A TEST channel",3, true);
    // CleverTap.registerPush();
 alert("device ready");

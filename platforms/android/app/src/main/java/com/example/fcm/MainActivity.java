@@ -22,6 +22,7 @@ package com.example.fcm;
 import android.os.Bundle;
 import org.apache.cordova.*;
 
+
 public class MainActivity extends CordovaActivity
 {
     @Override
@@ -34,7 +35,7 @@ public class MainActivity extends CordovaActivity
         if (extras != null && extras.getBoolean("cdvStartInBackground", false)) {
             moveTaskToBack(true);
         }
-
+      
         // Set by <content src="index.html" /> in config.xml
         loadUrl(launchUrl);
     }
