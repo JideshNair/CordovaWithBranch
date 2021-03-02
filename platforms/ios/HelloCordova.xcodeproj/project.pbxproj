@@ -3,29 +3,32 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		0207DA581B56EA530066E2B4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0207DA571B56EA530066E2B4 /* Images.xcassets */; };
-		07982483F98543CFA8942DE5 /* CleverTapPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F9D379855B04709B16A3236 /* CleverTapPlugin.m */; };
-		0F6C84F1B8CA4B5CAA08EAEF /* SDWebImage.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3AFE7C81D3824CF28918B7AE /* SDWebImage.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
-		14F786040F1840DFAFD5ABDD /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61E8C1C0CA47426BA039E54A /* SystemConfiguration.framework */; };
+		0470EDC3878B4B18A6F13DBB /* AppDelegate+FirebasePlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = A904F015F69E4F77A8F8C519 /* AppDelegate+FirebasePlugin.m */; };
+		1162FB4394004B8ABBFA9FF8 /* FirebasePlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C96488B66F748E88DE2C2D0 /* FirebasePlugin.m */; };
+		137AE647FEB9469E8FD02A08 /* AuthenticationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8950B7CEB8CA43738CD8D9D2 /* AuthenticationServices.framework */; };
+		16EBEF1FC7B24875BF9DCC56 /* FirebasePluginMessageReceiver.m in Sources */ = {isa = PBXBuildFile; fileRef = 565B2C50C8F24517B414A9C7 /* FirebasePluginMessageReceiver.m */; };
+		19A20FB47E2840908A2D1701 /* CleverTapSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0A3580AC011241E9955B825E /* CleverTapSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		1D3623260D0F684500981E51 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* AppDelegate.m */; };
 		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
-		1FAE4AC0409B4A428A8C1C64 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5809D5E83BE04A39B4C42670 /* CoreTelephony.framework */; };
-		22AE094876E542A185DFF784 /* BranchSDK.m in Sources */ = {isa = PBXBuildFile; fileRef = D02C8EA71D4D4071B4069872 /* BranchSDK.m */; };
-		2883A6C7E5CD478CA8928690 /* AppDelegate+CleverTapPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = C57CA35AFE884AE7BF4A8E05 /* AppDelegate+CleverTapPlugin.m */; };
+		219AC57AA22276592D41BA17 /* Pods_HelloCordova.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D27221FF6DA300E95D2170BA /* Pods_HelloCordova.framework */; };
+		2F12FC911E054EA88BDBEDE2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C5E58B5AFC8644A49C6697CE /* GoogleService-Info.plist */; };
 		301BF552109A68D80062928A /* libCordova.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 301BF535109A57CC0062928A /* libCordova.a */; settings = {ATTRIBUTES = (Required, ); }; };
 		302D95F114D2391D003F00A1 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 302D95EF14D2391D003F00A1 /* MainViewController.m */; };
 		302D95F214D2391D003F00A1 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 302D95F014D2391D003F00A1 /* MainViewController.xib */; };
-		365831AE6CEB42BACB94C64D /* libPods-HelloCordova.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 56F2C16BC962921B550A791E /* libPods-HelloCordova.a */; };
-		5A3A8951E5684C4BB97990E3 /* AppDelegate+BranchSdk.m in Sources */ = {isa = PBXBuildFile; fileRef = D1F309F52D05439091BEEB81 /* AppDelegate+BranchSdk.m */; };
-		61FFFF3288DE4BD59A62BD3E /* CleverTapSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D90DDFD0AE684DE181BF666B /* CleverTapSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		33E712E6B1E6437ABD46F913 /* CleverTapPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = F6C77DCD179C42EC85C25421 /* CleverTapPlugin.m */; };
+		36BBAB6250014735ADDE2362 /* SDWebImage.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 24461734D1AF4F089C6E03F8 /* SDWebImage.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		43324433518E4ABCAB2B6C9D /* AppDelegate+CleverTapPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 55BDE2FE24354C1EA9B280C4 /* AppDelegate+CleverTapPlugin.m */; };
+		4388EE9A885A49238FBF65A8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28D41616C6AA4593AD182FFA /* UIKit.framework */; };
 		6AFF5BF91D6E424B00AB3073 /* CDVLaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6AFF5BF81D6E424B00AB3073 /* CDVLaunchScreen.storyboard */; };
-		CDB669E9A2C54BD89ACAE172 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E6FF4D14E674763ACDC6E8E /* CoreLocation.framework */; };
-		D5D4A461F52F411AB0B76773 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6189CD9E98B4A4A9F0D0352 /* UIKit.framework */; };
-		4F82C462BE3C485D919091E1 /* SegmentCordovaPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = A7FCC5AB04C74181AAABFC91 /* SegmentCordovaPlugin.m */; };
+		8CFC6E41032E4AF1B1ED015C /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47451275D82D484298AD9AD0 /* CoreTelephony.framework */; };
+		A2FC7B75B726427B91DBF5F3 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F088B33ABAA447198EC5AE2E /* CoreLocation.framework */; };
+		A82D7E31375E408A9D85FAF2 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44779B3670B44B5FABB028D1 /* SystemConfiguration.framework */; };
+		E1746BA4C284497EB7AE7B02 /* FirebasePluginMessageReceiverManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 657A551EE01D453ABA2B2FAE /* FirebasePluginMessageReceiverManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,24 +56,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		29CB22852542CB5000A0B275 /* Embed App Extensions */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 13;
-			files = (
-			);
-			name = "Embed App Extensions";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A57B6B67AEC4434DB006A580 /* Embed Frameworks */ = {
+		951AA1D33B824EAD8CDFD8FE /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				61FFFF3288DE4BD59A62BD3E /* CleverTapSDK.framework in Embed Frameworks */,
-				0F6C84F1B8CA4B5CAA08EAEF /* SDWebImage.framework in Embed Frameworks */,
+				19A20FB47E2840908A2D1701 /* CleverTapSDK.framework in Embed Frameworks */,
+				36BBAB6250014735ADDE2362 /* SDWebImage.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -79,14 +72,14 @@
 
 /* Begin PBXFileReference section */
 		0207DA571B56EA530066E2B4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = HelloCordova/Images.xcassets; sourceTree = SOURCE_ROOT; };
-		13B7D4373E8B45018964FDD7 /* BranchSDK.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = BranchSDK.h; path = "branch-cordova-sdk/BranchSDK.h"; sourceTree = "<group>"; };
+		0A3580AC011241E9955B825E /* CleverTapSDK.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = CleverTapSDK.framework; path = "HelloCordova/Plugins/clevertap-cordova/CleverTapSDK.framework"; sourceTree = "<group>"; };
 		1D3623240D0F684500981E51 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1D3623250D0F684500981E51 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		1D6058910D05DD3D006BFB54 /* HelloCordova.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloCordova.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		24461734D1AF4F089C6E03F8 /* SDWebImage.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = SDWebImage.framework; path = "HelloCordova/Plugins/clevertap-cordova/SDWebImage.framework"; sourceTree = "<group>"; };
+		28D41616C6AA4593AD182FFA /* UIKit.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		29CB227B2542CB5000A0B275 /* NotificationService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotificationService.h; sourceTree = "<group>"; };
-		29CB227C2542CB5000A0B275 /* NotificationService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotificationService.m; sourceTree = "<group>"; };
-		29CB227E2542CB5000A0B275 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C96488B66F748E88DE2C2D0 /* FirebasePlugin.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = FirebasePlugin.m; path = "cordova-plugin-firebasex/FirebasePlugin.m"; sourceTree = "<group>"; };
 		301BF52D109A57CC0062928A /* CordovaLib.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CordovaLib.xcodeproj; path = CordovaLib/CordovaLib.xcodeproj; sourceTree = "<group>"; };
 		301BF56E109A69640062928A /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; path = www; sourceTree = SOURCE_ROOT; };
 		302D95EE14D2391D003F00A1 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
@@ -96,30 +89,31 @@
 		3047A5101AB8059700498E2A /* build-release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = "build-release.xcconfig"; path = "cordova/build-release.xcconfig"; sourceTree = SOURCE_ROOT; };
 		3047A5111AB8059700498E2A /* build.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = build.xcconfig; path = cordova/build.xcconfig; sourceTree = SOURCE_ROOT; };
 		32CA4F630368D1EE00C91783 /* HelloCordova-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "HelloCordova-Prefix.pch"; sourceTree = "<group>"; };
-		367EBC1997C0DBEEF4358A17 /* Pods-HelloCordova.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloCordova.release.xcconfig"; path = "Target Support Files/Pods-HelloCordova/Pods-HelloCordova.release.xcconfig"; sourceTree = "<group>"; };
-		3AFE7C81D3824CF28918B7AE /* SDWebImage.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = SDWebImage.framework; path = "HelloCordova/Plugins/clevertap-cordova/SDWebImage.framework"; sourceTree = "<group>"; };
-		3E6FF4D14E674763ACDC6E8E /* CoreLocation.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
-		3EC2ECD9F420435C8D9DB1B6 /* BranchNPM.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = BranchNPM.h; path = "branch-cordova-sdk/BranchNPM.h"; sourceTree = "<group>"; };
-		56F2C16BC962921B550A791E /* libPods-HelloCordova.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HelloCordova.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5809D5E83BE04A39B4C42670 /* CoreTelephony.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
-		61E8C1C0CA47426BA039E54A /* SystemConfiguration.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		44779B3670B44B5FABB028D1 /* SystemConfiguration.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		47451275D82D484298AD9AD0 /* CoreTelephony.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		4D89E0F904CF4CEAAD6AA0C9 /* AppDelegate+FirebasePlugin.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = "AppDelegate+FirebasePlugin.h"; path = "cordova-plugin-firebasex/AppDelegate+FirebasePlugin.h"; sourceTree = "<group>"; };
+		55BDE2FE24354C1EA9B280C4 /* AppDelegate+CleverTapPlugin.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = "AppDelegate+CleverTapPlugin.m"; path = "clevertap-cordova/AppDelegate+CleverTapPlugin.m"; sourceTree = "<group>"; };
+		565B2C50C8F24517B414A9C7 /* FirebasePluginMessageReceiver.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = FirebasePluginMessageReceiver.m; path = "cordova-plugin-firebasex/FirebasePluginMessageReceiver.m"; sourceTree = "<group>"; };
+		657A551EE01D453ABA2B2FAE /* FirebasePluginMessageReceiverManager.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = FirebasePluginMessageReceiverManager.m; path = "cordova-plugin-firebasex/FirebasePluginMessageReceiverManager.m"; sourceTree = "<group>"; };
+		66E8E1A55E63416C9973DF5F /* CleverTapPlugin.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = CleverTapPlugin.h; path = "clevertap-cordova/CleverTapPlugin.h"; sourceTree = "<group>"; };
 		6AFF5BF81D6E424B00AB3073 /* CDVLaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = CDVLaunchScreen.storyboard; path = HelloCordova/CDVLaunchScreen.storyboard; sourceTree = SOURCE_ROOT; };
-		748E6F66BEB8B3B890FA01E7 /* Pods-HelloCordova.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloCordova.debug.xcconfig"; path = "Target Support Files/Pods-HelloCordova/Pods-HelloCordova.debug.xcconfig"; sourceTree = "<group>"; };
+		797211F5EE7419DECBF4B20D /* Pods-HelloCordova.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloCordova.debug.xcconfig"; path = "Target Support Files/Pods-HelloCordova/Pods-HelloCordova.debug.xcconfig"; sourceTree = "<group>"; };
+		7AB6BDCB85F64230AA059909 /* FirebasePluginMessageReceiver.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = FirebasePluginMessageReceiver.h; path = "cordova-plugin-firebasex/FirebasePluginMessageReceiver.h"; sourceTree = "<group>"; };
+		8950B7CEB8CA43738CD8D9D2 /* AuthenticationServices.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = AuthenticationServices.framework; path = System/Library/Frameworks/AuthenticationServices.framework; sourceTree = SDKROOT; };
 		8D1107310486CEB800E47090 /* HelloCordova-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "HelloCordova-Info.plist"; path = "HelloCordova/HelloCordova-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = SOURCE_ROOT; };
-		9F9D379855B04709B16A3236 /* CleverTapPlugin.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = CleverTapPlugin.m; path = "clevertap-cordova/CleverTapPlugin.m"; sourceTree = "<group>"; };
-		A7B60245E2424DBE9D87F826 /* CleverTapPlugin.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = CleverTapPlugin.h; path = "clevertap-cordova/CleverTapPlugin.h"; sourceTree = "<group>"; };
-		B4C8B35956AB468489A47292 /* AppDelegate+CleverTapPlugin.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = "AppDelegate+CleverTapPlugin.h"; path = "clevertap-cordova/AppDelegate+CleverTapPlugin.h"; sourceTree = "<group>"; };
-		C57CA35AFE884AE7BF4A8E05 /* AppDelegate+CleverTapPlugin.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = "AppDelegate+CleverTapPlugin.m"; path = "clevertap-cordova/AppDelegate+CleverTapPlugin.m"; sourceTree = "<group>"; };
-		D02C8EA71D4D4071B4069872 /* BranchSDK.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = BranchSDK.m; path = "branch-cordova-sdk/BranchSDK.m"; sourceTree = "<group>"; };
-		D1F309F52D05439091BEEB81 /* AppDelegate+BranchSdk.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = "AppDelegate+BranchSdk.m"; path = "branch-cordova-sdk/AppDelegate+BranchSdk.m"; sourceTree = "<group>"; };
-		D6189CD9E98B4A4A9F0D0352 /* UIKit.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		D90DDFD0AE684DE181BF666B /* CleverTapSDK.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = CleverTapSDK.framework; path = "HelloCordova/Plugins/clevertap-cordova/CleverTapSDK.framework"; sourceTree = "<group>"; };
+		90DD60E5D49740B18272A342 /* FirebasePluginMessageReceiverManager.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = FirebasePluginMessageReceiverManager.h; path = "cordova-plugin-firebasex/FirebasePluginMessageReceiverManager.h"; sourceTree = "<group>"; };
+		9690878CE3394864A665F295 /* AppDelegate+CleverTapPlugin.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = "AppDelegate+CleverTapPlugin.h"; path = "clevertap-cordova/AppDelegate+CleverTapPlugin.h"; sourceTree = "<group>"; };
+		A904F015F69E4F77A8F8C519 /* AppDelegate+FirebasePlugin.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = "AppDelegate+FirebasePlugin.m"; path = "cordova-plugin-firebasex/AppDelegate+FirebasePlugin.m"; sourceTree = "<group>"; };
+		C5E58B5AFC8644A49C6697CE /* GoogleService-Info.plist */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D27221FF6DA300E95D2170BA /* Pods_HelloCordova.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HelloCordova.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA63DDF54DD848FE9FE80B42 /* FirebasePlugin.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = FirebasePlugin.h; path = "cordova-plugin-firebasex/FirebasePlugin.h"; sourceTree = "<group>"; };
 		EB87FDF31871DA8E0020F90C /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; name = www; path = ../../www; sourceTree = "<group>"; };
 		EB87FDF41871DAF40020F90C /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = ../../config.xml; sourceTree = "<group>"; };
+		ECADDC7FFCFF407902BBF9A2 /* Pods-HelloCordova.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloCordova.release.xcconfig"; path = "Target Support Files/Pods-HelloCordova/Pods-HelloCordova.release.xcconfig"; sourceTree = "<group>"; };
 		ED33DF2A687741AEAF9F8254 /* Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
+		F088B33ABAA447198EC5AE2E /* CoreLocation.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		F6C77DCD179C42EC85C25421 /* CleverTapPlugin.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = CleverTapPlugin.m; path = "clevertap-cordova/CleverTapPlugin.m"; sourceTree = "<group>"; };
 		F840E1F0165FE0F500CFE078 /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = HelloCordova/config.xml; sourceTree = "<group>"; };
-		A7FCC5AB04C74181AAABFC91 /* SegmentCordovaPlugin.m */ = {isa = PBXFileReference; name = "SegmentCordovaPlugin.m"; path = "segment-cordova-plugin/SegmentCordovaPlugin/SegmentCordovaPlugin.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
-		E246E13EE2794175B7E687EB /* SegmentCordovaPlugin.h */ = {isa = PBXFileReference; name = "SegmentCordovaPlugin.h"; path = "segment-cordova-plugin/SegmentCordovaPlugin/SegmentCordovaPlugin.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,11 +122,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				301BF552109A68D80062928A /* libCordova.a in Frameworks */,
-				365831AE6CEB42BACB94C64D /* libPods-HelloCordova.a in Frameworks */,
-				14F786040F1840DFAFD5ABDD /* SystemConfiguration.framework in Frameworks */,
-				1FAE4AC0409B4A428A8C1C64 /* CoreTelephony.framework in Frameworks */,
-				D5D4A461F52F411AB0B76773 /* UIKit.framework in Frameworks */,
-				CDB669E9A2C54BD89ACAE172 /* CoreLocation.framework in Frameworks */,
+				A82D7E31375E408A9D85FAF2 /* SystemConfiguration.framework in Frameworks */,
+				8CFC6E41032E4AF1B1ED015C /* CoreTelephony.framework in Frameworks */,
+				4388EE9A885A49238FBF65A8 /* UIKit.framework in Frameworks */,
+				A2FC7B75B726427B91DBF5F3 /* CoreLocation.framework in Frameworks */,
+				137AE647FEB9469E8FD02A08 /* AuthenticationServices.framework in Frameworks */,
+				219AC57AA22276592D41BA17 /* Pods_HelloCordova.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -160,15 +155,6 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		2879B0EBF22142E8F41F0AF7 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				748E6F66BEB8B3B890FA01E7 /* Pods-HelloCordova.debug.xcconfig */,
-				367EBC1997C0DBEEF4358A17 /* Pods-HelloCordova.release.xcconfig */,
-			);
-			path = Pods;
-			sourceTree = "<group>";
-		};
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
@@ -180,10 +166,9 @@
 				307C750510C5A3420062BCA9 /* Plugins */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
 				29B97317FDCFA39411CA2CEA /* Resources */,
-				29CB227A2542CB5000A0B275 /* test */,
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
 				19C28FACFE9D520D11CA2CBB /* Products */,
-				2879B0EBF22142E8F41F0AF7 /* Pods */,
+				995B3CCECF0DB81FB02654A2 /* Pods */,
 			);
 			name = CustomTemplate;
 			sourceTree = "<group>";
@@ -206,6 +191,7 @@
 				3047A50E1AB8057F00498E2A /* config */,
 				8D1107310486CEB800E47090 /* HelloCordova-Info.plist */,
 				6AFF5BF81D6E424B00AB3073 /* CDVLaunchScreen.storyboard */,
+				C5E58B5AFC8644A49C6697CE /* GoogleService-Info.plist */,
 			);
 			name = Resources;
 			path = HelloCordova/Resources;
@@ -214,25 +200,16 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				56F2C16BC962921B550A791E /* libPods-HelloCordova.a */,
-				D90DDFD0AE684DE181BF666B /* CleverTapSDK.framework */,
-				3AFE7C81D3824CF28918B7AE /* SDWebImage.framework */,
-				61E8C1C0CA47426BA039E54A /* SystemConfiguration.framework */,
-				5809D5E83BE04A39B4C42670 /* CoreTelephony.framework */,
-				D6189CD9E98B4A4A9F0D0352 /* UIKit.framework */,
-				3E6FF4D14E674763ACDC6E8E /* CoreLocation.framework */,
+				0A3580AC011241E9955B825E /* CleverTapSDK.framework */,
+				24461734D1AF4F089C6E03F8 /* SDWebImage.framework */,
+				44779B3670B44B5FABB028D1 /* SystemConfiguration.framework */,
+				47451275D82D484298AD9AD0 /* CoreTelephony.framework */,
+				28D41616C6AA4593AD182FFA /* UIKit.framework */,
+				F088B33ABAA447198EC5AE2E /* CoreLocation.framework */,
+				8950B7CEB8CA43738CD8D9D2 /* AuthenticationServices.framework */,
+				D27221FF6DA300E95D2170BA /* Pods_HelloCordova.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		29CB227A2542CB5000A0B275 /* test */ = {
-			isa = PBXGroup;
-			children = (
-				29CB227B2542CB5000A0B275 /* NotificationService.h */,
-				29CB227C2542CB5000A0B275 /* NotificationService.m */,
-				29CB227E2542CB5000A0B275 /* Info.plist */,
-			);
-			path = test;
 			sourceTree = "<group>";
 		};
 		301BF52E109A57CC0062928A /* Products */ = {
@@ -257,20 +234,31 @@
 		307C750510C5A3420062BCA9 /* Plugins */ = {
 			isa = PBXGroup;
 			children = (
-				D02C8EA71D4D4071B4069872 /* BranchSDK.m */,
-				D1F309F52D05439091BEEB81 /* AppDelegate+BranchSdk.m */,
-				3EC2ECD9F420435C8D9DB1B6 /* BranchNPM.h */,
-				13B7D4373E8B45018964FDD7 /* BranchSDK.h */,
-				C57CA35AFE884AE7BF4A8E05 /* AppDelegate+CleverTapPlugin.m */,
-				9F9D379855B04709B16A3236 /* CleverTapPlugin.m */,
-				B4C8B35956AB468489A47292 /* AppDelegate+CleverTapPlugin.h */,
-				A7B60245E2424DBE9D87F826 /* CleverTapPlugin.h */,
-				A7FCC5AB04C74181AAABFC91 /* SegmentCordovaPlugin.m */,
-				E246E13EE2794175B7E687EB /* SegmentCordovaPlugin.h */,
+				55BDE2FE24354C1EA9B280C4 /* AppDelegate+CleverTapPlugin.m */,
+				F6C77DCD179C42EC85C25421 /* CleverTapPlugin.m */,
+				9690878CE3394864A665F295 /* AppDelegate+CleverTapPlugin.h */,
+				66E8E1A55E63416C9973DF5F /* CleverTapPlugin.h */,
+				A904F015F69E4F77A8F8C519 /* AppDelegate+FirebasePlugin.m */,
+				2C96488B66F748E88DE2C2D0 /* FirebasePlugin.m */,
+				565B2C50C8F24517B414A9C7 /* FirebasePluginMessageReceiver.m */,
+				657A551EE01D453ABA2B2FAE /* FirebasePluginMessageReceiverManager.m */,
+				4D89E0F904CF4CEAAD6AA0C9 /* AppDelegate+FirebasePlugin.h */,
+				DA63DDF54DD848FE9FE80B42 /* FirebasePlugin.h */,
+				7AB6BDCB85F64230AA059909 /* FirebasePluginMessageReceiver.h */,
+				90DD60E5D49740B18272A342 /* FirebasePluginMessageReceiverManager.h */,
 			);
 			name = Plugins;
 			path = HelloCordova/Plugins;
 			sourceTree = SOURCE_ROOT;
+		};
+		995B3CCECF0DB81FB02654A2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				797211F5EE7419DECBF4B20D /* Pods-HelloCordova.debug.xcconfig */,
+				ECADDC7FFCFF407902BBF9A2 /* Pods-HelloCordova.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
 		};
 		EB87FDF11871DA420020F90C /* Staging */ = {
 			isa = PBXGroup;
@@ -288,13 +276,14 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "HelloCordova" */;
 			buildPhases = (
-				F96B6947F25105AEFD0F8A66 /* [CP] Check Pods Manifest.lock */,
+				6DEFAF8F97F7B3FCF47B94B8 /* [CP] Check Pods Manifest.lock */,
 				304B58A110DAC018002A0835 /* Copy www directory */,
 				1D60588D0D05DD3D006BFB54 /* Resources */,
 				1D60588E0D05DD3D006BFB54 /* Sources */,
 				1D60588F0D05DD3D006BFB54 /* Frameworks */,
-				A57B6B67AEC4434DB006A580 /* Embed Frameworks */,
-				29CB22852542CB5000A0B275 /* Embed App Extensions */,
+				951AA1D33B824EAD8CDFD8FE /* Embed Frameworks */,
+				4C757DA7030FE6455AB84D80 /* [CP] Embed Pods Frameworks */,
+				3E06FE2421C8F1CC69B8A806 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -321,7 +310,7 @@
 				};
 			};
 			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "HelloCordova" */;
-			compatibilityVersion = "Xcode 3.2";
+			compatibilityVersion = "Xcode 12.0";
 			developmentRegion = English;
 			hasScannedForEncodings = 1;
 			knownRegions = (
@@ -370,6 +359,7 @@
 				302D95F214D2391D003F00A1 /* MainViewController.xib in Resources */,
 				0207DA581B56EA530066E2B4 /* Images.xcassets in Resources */,
 				6AFF5BF91D6E424B00AB3073 /* CDVLaunchScreen.storyboard in Resources */,
+				2F12FC911E054EA88BDBEDE2 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -391,7 +381,71 @@
 			shellScript = "\"$SRCROOT/HelloCordova/Scripts/copy-www-build-step.sh\"";
 			showEnvVarsInLog = 0;
 		};
-		F96B6947F25105AEFD0F8A66 /* [CP] Check Pods Manifest.lock */ = {
+		3E06FE2421C8F1CC69B8A806 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HelloCordova/Pods-HelloCordova-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseInAppMessaging/InAppMessagingDisplayResources.bundle",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/GoogleTagManager/TagManagerResources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/InAppMessagingDisplayResources.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TagManagerResources.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HelloCordova/Pods-HelloCordova-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4C757DA7030FE6455AB84D80 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HelloCordova/Pods-HelloCordova-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AppAuth/AppAuth.framework",
+				"${BUILT_PRODUCTS_DIR}/BoringSSL-GRPC/openssl_grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMAppAuth/GTMAppAuth.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/PromisesObjC/FBLPromises.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/abseil/absl.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-C++/grpcpp.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AppAuth.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl_grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMAppAuth.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBLPromises.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/absl.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpcpp.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HelloCordova/Pods-HelloCordova-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6DEFAF8F97F7B3FCF47B94B8 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -423,11 +477,12 @@
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
 				1D3623260D0F684500981E51 /* AppDelegate.m in Sources */,
 				302D95F114D2391D003F00A1 /* MainViewController.m in Sources */,
-				22AE094876E542A185DFF784 /* BranchSDK.m in Sources */,
-				5A3A8951E5684C4BB97990E3 /* AppDelegate+BranchSdk.m in Sources */,
-				2883A6C7E5CD478CA8928690 /* AppDelegate+CleverTapPlugin.m in Sources */,
-				07982483F98543CFA8942DE5 /* CleverTapPlugin.m in Sources */,
-				4F82C462BE3C485D919091E1 /* SegmentCordovaPlugin.m in Sources */,
+				43324433518E4ABCAB2B6C9D /* AppDelegate+CleverTapPlugin.m in Sources */,
+				33E712E6B1E6437ABD46F913 /* CleverTapPlugin.m in Sources */,
+				0470EDC3878B4B18A6F13DBB /* AppDelegate+FirebasePlugin.m in Sources */,
+				1162FB4394004B8ABBFA9FF8 /* FirebasePlugin.m in Sources */,
+				16EBEF1FC7B24875BF9DCC56 /* FirebasePluginMessageReceiver.m in Sources */,
+				E1746BA4C284497EB7AE7B02 /* FirebasePluginMessageReceiverManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -451,8 +506,6 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
-				CODE_SIGN_IDENTITY = "Apple Development";
-				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
 				DEVELOPMENT_TEAM = 7XM67G79YA;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -468,10 +521,12 @@
 				GCC_VERSION = "";
 				INFOPLIST_FILE = "HelloCordova/HelloCordova-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.example.fcm-newjidesh";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"@executable_path/Frameworks",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.fcm11;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -497,8 +552,11 @@
 				GCC_VERSION = "";
 				INFOPLIST_FILE = "HelloCordova/HelloCordova-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.example.fcm-newjidesh";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"@executable_path/Frameworks",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.fcm13;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -539,6 +597,10 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"@executable_path/Frameworks",
+					"$(inherited)",
+				);
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.fcm;
 				SDKROOT = iphoneos;
@@ -581,6 +643,10 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"@executable_path/Frameworks",
+					"$(inherited)",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.fcm;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = NO;

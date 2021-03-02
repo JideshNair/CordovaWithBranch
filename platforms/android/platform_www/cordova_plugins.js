@@ -9,11 +9,19 @@ cordova.define('cordova/plugin_list', function(require, exports, module) {
       ]
     },
     {
-      "id": "branch-cordova-sdk.Branch",
-      "file": "plugins/branch-cordova-sdk/src/index.js",
-      "pluginId": "branch-cordova-sdk",
+      "id": "cordova-plugin-firebasex.FirebasePlugin",
+      "file": "plugins/cordova-plugin-firebasex/www/firebase.js",
+      "pluginId": "cordova-plugin-firebasex",
       "clobbers": [
-        "Branch"
+        "FirebasePlugin"
+      ]
+    },
+    {
+      "id": "cordova-plugin-googleplus.GooglePlus",
+      "file": "plugins/cordova-plugin-googleplus/www/GooglePlus.js",
+      "pluginId": "cordova-plugin-googleplus",
+      "clobbers": [
+        "window.plugins.googleplus"
       ]
     },
     {
@@ -23,12 +31,24 @@ cordova.define('cordova/plugin_list', function(require, exports, module) {
       "clobbers": [
         "Segment"
       ]
+    },
+    {
+      "id": "branch-cordova-sdk.Branch",
+      "file": "plugins/branch-cordova-sdk/src/index.js",
+      "pluginId": "branch-cordova-sdk",
+      "clobbers": [
+        "Branch"
+      ]
     }
   ];
   module.exports.metadata = {
-    "cordova-plugin-whitelist": "1.3.4",
     "clevertap-cordova": "2.2.0",
-    "branch-cordova-sdk": "4.1.2",
-    "segment-cordova-plugin": "4.0.0"
+    "cordova-plugin-androidx": "2.0.0",
+    "cordova-plugin-androidx-adapter": "1.1.3",
+    "cordova-plugin-firebasex": "9.1.2",
+    "cordova-plugin-googleplus": "7.0.1",
+    "cordova-plugin-whitelist": "1.3.4",
+    "segment-cordova-plugin": "4.0.0",
+    "branch-cordova-sdk": "4.1.2"
   };
 });

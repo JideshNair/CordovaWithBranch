@@ -40,7 +40,7 @@ allprojects {
 }
 
 task wrapper(type: Wrapper) {
-    gradleVersion = '4.10.3'
+    gradleVersion = '6.1.1'
 }
 
 // Configuration properties. Set these via environment variables, build-extras.gradle, or gradle.properties.
@@ -98,6 +98,7 @@ ext {
 }
 
 // PLUGIN GRADLE EXTENSIONS START
+apply from: "../cordova-plugin-firebasex/fcm-build.gradle"
 apply from: "../segment-cordova-plugin/fcm-build.gradle"
 // PLUGIN GRADLE EXTENSIONS END
 
@@ -301,9 +302,23 @@ dependencies {
     implementation "com.android.support:design:28.0.0"
     implementation "com.android.support:appcompat-v7:28.0.0"
     implementation "com.android.installreferrer:installreferrer:1.0"
-    implementation "io.branch.sdk.android:library:4.3.2"
+    implementation "com.google.android.gms:play-services-tagmanager:17.0.0"
+    implementation "com.google.android.gms:play-services-auth:18.0.0"
+    implementation "com.google.firebase:firebase-analytics:17.4.0"
+    implementation "com.google.firebase:firebase-messaging:20.1.6"
+    implementation "com.google.firebase:firebase-config:19.1.4"
+    implementation "com.google.firebase:firebase-perf:19.0.7"
+    implementation "com.google.firebase:firebase-auth:19.3.1"
+    implementation "com.google.firebase:firebase-inappmessaging-display:19.0.6"
+    implementation "com.google.firebase:firebase-firestore:21.4.3"
+    implementation "com.crashlytics.sdk.android:crashlytics:2.10.1"
+    implementation "com.crashlytics.sdk.android:crashlytics-ndk:2.1.1"
+    implementation "com.google.code.gson:gson:2.8.6"
+    implementation "com.google.android.gms:play-services-auth:11.8.0"
+    implementation "com.google.android.gms:play-services-identity:11.8.0"
     implementation "com.segment.analytics.android:analytics:4.3.1"
     implementation "com.appboy:appboy-segment-integration:4.0.0"
+    implementation "io.branch.sdk.android:library:4.3.2"
     // SUB-PROJECT DEPENDENCIES END
 }
 
@@ -366,4 +381,3 @@ for (def func : cdvPluginPostBuildExtras) {
 if (hasProperty('postBuildExtras')) {
     postBuildExtras()
 }
-apply plugin: 'com.google.gms.google-services'

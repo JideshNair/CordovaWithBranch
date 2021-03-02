@@ -1,14 +1,6 @@
 cordova.define('cordova/plugin_list', function(require, exports, module) {
   module.exports = [
     {
-      "id": "branch-cordova-sdk.Branch",
-      "file": "plugins/branch-cordova-sdk/src/index.js",
-      "pluginId": "branch-cordova-sdk",
-      "clobbers": [
-        "Branch"
-      ]
-    },
-    {
       "id": "clevertap-cordova.CleverTap",
       "file": "plugins/clevertap-cordova/www/CleverTap.js",
       "pluginId": "clevertap-cordova",
@@ -17,18 +9,18 @@ cordova.define('cordova/plugin_list', function(require, exports, module) {
       ]
     },
     {
-      "id": "segment-cordova-plugin.SegmentCordovaPlugin",
-      "file": "plugins/segment-cordova-plugin/www/SegmentCordovaPlugin.js",
-      "pluginId": "segment-cordova-plugin",
+      "id": "cordova-plugin-firebasex.FirebasePlugin",
+      "file": "plugins/cordova-plugin-firebasex/www/firebase.js",
+      "pluginId": "cordova-plugin-firebasex",
       "clobbers": [
-        "Segment"
+        "FirebasePlugin"
       ]
     }
   ];
   module.exports.metadata = {
-    "branch-cordova-sdk": "4.1.2",
     "clevertap-cordova": "2.2.0",
-    "cordova-plugin-whitelist": "1.3.4",
-    "segment-cordova-plugin": "4.0.0"
+    "cordova-plugin-androidx": "2.0.0",
+    "cordova-plugin-androidx-adapter": "1.1.3",
+    "cordova-plugin-firebasex": "9.1.2"
   };
 });

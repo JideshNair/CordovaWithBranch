@@ -1339,7 +1339,7 @@ public class CleverTapPlugin extends CordovaPlugin implements SyncListener, InAp
                     int msgCount = cleverTap.getInboxMessageCount();
                     PluginResult _result = new PluginResult(PluginResult.Status.OK, msgCount);
                     _result.setKeepCallback(true);
-                    callbackContext.sendPluginResult(_result);
+                    callbackContext.ssetendPluginResult(_result);
                 }
             });
             return true;
